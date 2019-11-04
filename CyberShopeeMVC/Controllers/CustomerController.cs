@@ -36,5 +36,11 @@ namespace CyberShopeeMVC.Controllers
             ViewBag.Message = "Incorrect username or password";
             return View("SignIn");
         }
+
+        [HttpGet]
+        public ActionResult SignUp()
+        {
+            return View("SignIn");
+        }
     }
 }
