@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 
 
-using CyberShopee.Models;
+using CyberShopeeMVC.Models;
 using System.Net.Http;
 
 namespace CyberShopeeMVC.Controllers
