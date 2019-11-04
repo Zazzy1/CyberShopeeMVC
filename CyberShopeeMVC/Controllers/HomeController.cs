@@ -12,7 +12,7 @@ namespace CyberShopeeMVC.Controllers
         {
             return View();
         }
-
+        //Action Result Commit
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
